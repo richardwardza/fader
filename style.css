@@ -1,0 +1,75 @@
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent url('image.jpg') no-repeat center center;
+    background-size: cover;
+    display: block;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 2s ease-out;
+}
+
+.reservation {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 50px 25px;
+    background-color: #fff;
+}
+
+.menu {
+
+    position: absolute;
+    top: 45%;
+    right: 0;
+    padding: 40px;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    width: 70%;
+}
+
+.content {
+    background-color: rgba(255,255,255,0.6);
+    width: 800px;
+    margin: 700px auto 25px;
+}
+
+.content p {
+    padding-bottom: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    height: 25px;
+    background-color: purple;
+    width: 100%;
+}
+
+
+.fade {
+    opacity: 1;
+    transition: all 2s ease-in-out;
+}
+
+.fade.out {
+    opacity: 0;
+}
